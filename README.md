@@ -2,6 +2,7 @@
 
 oda-r is a professional-grade compiler for Declarative Self-improving Python (DSPy), featuring comprehensive error handling, logging, and configuration management.
 
+
 ## Features
 
 - Async support for improved performance
@@ -16,7 +17,7 @@ oda-r is a professional-grade compiler for Declarative Self-improving Python (DS
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/oda-r.git
+git clone https://github.com/mitkox/oda-r.git
 cd oda-r
 ```
 
