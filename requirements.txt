@@ -1,0 +1,6 @@
+dspy-ai>=2.0.0
+requests>=2.31.0
+typing>=3.7.4.3
+aiohttp>=3.8.0
+pyyaml>=6.0.0
+rich>=13.0.0

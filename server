@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# Set GPU parameters
+export CUDA_VISIBLE_DEVICES=0,1,2,3
+
+# Launch llama-server with optimized parameters
+/home/mitko/dev/llama.cpp/build/bin/llama-server \
+    -m /home/mitko/dev/reasoning/DeepSeek-R1-Distill-Qwen-32B-Q8_0.gguf \
+    -md /home/mitko/dev/reasoning/DeepSeek-R1-Distill-Qwen-1.5B-Q4_K_M.gguf \
+    --port 8080 \
+    --host 0.0.0.0 \
+    -ngl 99 \
+    -ngld 99 \
+    --draft-max 8 \
+    --draft-min 4 \
+    --draft-p-min 0.9 \
+    -fa \
+    -t 1 \
+    -c 32768 \
+    --batch-size 512 \
+    --mlock \
+    --cont-batching

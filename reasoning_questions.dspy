@@ -1,0 +1,54 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "category": "Mathematics",
+            "question": "A spherical satellite orbits Earth at an altitude of 400 km. Given Earth's radius is 6371 km and assuming a circular orbit, calculate: a) The orbital period in minutes b) The satellite's velocity in km/s. Use g = 9.81 m/s² and the formula for orbital period T = 2π√(r³/GM), where G is the gravitational constant."
+        },
+        {
+            "id": 2,
+            "category": "Computer Science",
+            "question": "Design an algorithm to find the longest substring of consecutive characters in a string that forms a valid palindrome. For example, in 'abbacdeedcba', the answer would be 'cdeedc'. Analyze its time and space complexity."
+        },
+        {
+            "id": 3,
+            "category": "Engineering",
+            "question": "A heat exchanger uses counter-flow design to cool oil (cp = 2.0 kJ/kg·K) flowing at 2 kg/s from 120°C to 60°C using water (cp = 4.18 kJ/kg·K) entering at 20°C. Calculate: a) The heat transfer rate b) The required water mass flow rate if water exits at 45°C c) The log mean temperature difference (LMTD)."
+        },
+        {
+            "id": 4,
+            "category": "Mathematics",
+            "question": "In a regular dodecahedron (12 faces, each a regular pentagon), calculate: a) The number of vertices b) The number of edges c) The ratio of the radius of the circumscribed sphere to the edge length. Express the ratio in terms of the golden ratio φ = (1 + √5)/2."
+        },
+        {
+            "id": 5,
+            "category": "Computer Science",
+            "question": "Implement a distributed cache system with eventual consistency that handles concurrent writes. The system should support: a) Write-through and write-back policies b) Cache invalidation c) Conflict resolution using vector clocks. Provide pseudocode and explain how it handles network partitions."
+        },
+        {
+            "id": 6,
+            "category": "Engineering",
+            "question": "Design a MEMS (Micro-Electro-Mechanical System) cantilever beam resonator. Given a silicon beam of length 100 μm, width 20 μm, and thickness 2 μm: a) Calculate its fundamental resonant frequency b) Determine the minimum detectable force assuming a quality factor Q = 1000 and thermal noise at room temperature (300K). Use E = 169 GPa for silicon."
+        },
+        {
+            "id": 7,
+            "category": "Mathematics",
+            "question": "Using complex analysis, evaluate the integral of f(z) = z²/(z⁴ + 1) along the contour |z| = 2 using the residue theorem. Show all poles and their orders, and explain how the choice of branch cuts affects the result."
+        },
+        {
+            "id": 8,
+            "category": "Computer Science",
+            "question": "Design a real-time scheduling algorithm for a multi-core processor that handles both periodic and aperiodic tasks with different priorities and deadlines. The algorithm should: a) Minimize energy consumption b) Handle task migration c) Provide deadline guarantees. Analyze its worst-case response time."
+        },
+        {
+            "id": 9,
+            "category": "Engineering",
+            "question": "A composite aircraft wing spar is made of carbon fiber reinforced polymer (CFRP). Given a [0/±45/90]s layup using T300/epoxy prepreg: a) Calculate the laminate's ABD matrix b) Determine the critical buckling load c) Find the maximum allowable strain before first ply failure. Use classical lamination theory."
+        },
+        {
+            "id": 10,
+            "category": "Mathematics",
+            "question": "Prove that in any finite group G, if H is a subgroup of index n (|G:H| = n), then there exists a normal subgroup N of G contained in H such that |G:N| divides n!. Use this to show that any group of order 300 has a normal subgroup of order 25 or 75."
+        }
+    ]
+}
