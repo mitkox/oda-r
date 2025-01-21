@@ -29,7 +29,7 @@ pip install -r requirements.txt
 ## Usage
 
 ```bash
-python odar.py <path_to_dspy_file> [--config CONFIG] [--debug] [--async]
+python odar.py <path_to_dspy_file> [--config CONFIG] [--debug]
 ```
 
 Example:
